@@ -19,6 +19,6 @@ public class TheNameOfYourScript : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
-        SceneManager.LoadScene(LevelIndex);
+        SceneManager.LoadScene(LevelName);
     }
 }
